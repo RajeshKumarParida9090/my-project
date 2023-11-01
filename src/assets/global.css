@@ -1,0 +1,36 @@
+.intro-video {
+    height: 100%;
+    left: 0;
+    /* opacity: 0.9 !important; */
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.intro-video .videoBGWidth {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.intro-video .videoBGWidth video {
+    object-fit: cover;
+}
+
+.login-container {
+    position: relative;
+}
+
+.login-container .login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.login-container .login-form-container .css-1u1ao1q-MuiGrid-root {
+    background: #fff;
+}
